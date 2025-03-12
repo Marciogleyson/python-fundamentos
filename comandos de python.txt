@@ -1,10 +1,10 @@
 
-texto.lstrip() remove os espaços do início
-texto.rstrip() remove os espaços do final
-texto.strip()  remove os espaços do inicio e do final
-texto.replace("antigo" , "novo") substituir o que ta no antigo para o novo
-texto.statswith("texto começo") verifica o que começa
-texto.endswith("texto final") verificar o que termina
-texto.lower() tranforma letras minúsculas
-texto.upper() tranforma letra maiúsculas
-len(texto) obter a quantidade de caracteres
+texto.lstrip() remove os espaços do início.
+texto.rstrip() remove os espaços do final.
+texto.strip()  remove os espaços do inicio e do final.
+texto.replace("antigo" , "novo") substituir o que ta no antigo para o novo.
+texto.statswith("texto começo") verifica o que começa.
+texto.endswith("texto final") verificar o que termina.
+texto.lower() tranforma letras minúsculas.
+texto.upper() tranforma letra maiúsculas.
+len(texto) obter a quantidade de caracteres.
