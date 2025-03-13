@@ -8,3 +8,6 @@ texto.endswith("texto final") verificar o que termina.
 texto.lower() tranforma letras minúsculas.
 texto.upper() tranforma letra maiúsculas.
 len(texto) obter a quantidade de caracteres.
+
+
+fim...
