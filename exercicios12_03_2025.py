@@ -69,4 +69,27 @@ def solicitar_empresa():
     empresa2 = empresa.upper().replace("LTDA", "").replace("SA", "")
     print(empresa2)
 
-solicitar_empresa()    
+#solicitar_empresa()    
+
+def nome_curso():
+    curso = input("Digite o nome do Curso: ")
+    if curso.upper().startswith("SUPERDEV"):
+        print("O Curso e SuperDev")
+    else:
+        print("O Curso não é SuperDev")   
+
+#nome_curso()         
+
+def exemplo_idade():
+    idade = int(input("Digite a idade: "))
+    if idade <= 12:
+        print("Idade de Criança")
+    elif idade > 12 or idade < 18:
+        print("E um Adolecente")
+    elif idade > 18 or idade < 64:
+        print("Adulto")     
+
+    else:
+        print("E idoso")   
+
+exemplo_idade()            
