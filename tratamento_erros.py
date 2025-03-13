@@ -72,6 +72,7 @@ def exemplo_curso():
 if __name__ == "__main__":
     import os
     os.system("cls")
-    exemplo_curso()
+    #exemplo_curso()
     #tratar_erro_conversao_string_nao_inteira()
     #tratar_erro_conversao_string_nao_inteira()
+
