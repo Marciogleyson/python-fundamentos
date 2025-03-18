@@ -1,4 +1,5 @@
 
+# Passo 1: Solicitar o orçamento mensal
 def __solicitar_orcamento() -> float:
    limite_despesas = 0
    while limite_despesas <= 0:
@@ -12,7 +13,7 @@ def __solicitar_orcamento() -> float:
 
 #__solicitar_orcamento()
 
-# 1
+# Passo 2: Solicitar as despesas mensais em diferentes categorias
 def __solicitar_despesas_alimentacao() -> float:
     despesas_alimentacao = 0
     while despesas_alimentacao <= 0:
@@ -22,11 +23,11 @@ def __solicitar_despesas_alimentacao() -> float:
                 print("Valor deve ser maior que zero, digite novamente o valor: ")
         except ValueError as error:
             print("!!!ERRO!! Insira um número válido")
-            return despesas_alimentacao
+    return despesas_alimentacao
         
 #__solicitar_despesas_alimentacao()    
 
-# 2
+
 def __solicitar_despesas_transporte()-> float:
     despesas_transporte = 0
     while despesas_transporte <= 0:
@@ -41,7 +42,7 @@ def __solicitar_despesas_transporte()-> float:
 
 #__solicitar_despesas_transporte()    
 
-# 3
+
 def __solicitar_despesas_lazer() -> float:
     despesas_lazer = 0
     while despesas_lazer <= 0:
@@ -79,9 +80,9 @@ def __calcular_total_despesas(alimentacao: float, transporte: float, lazer: floa
 # Passo 4: Comparar o total de despesas com o orçamento
 def __comparar_orcamento_com_despesas(orcamento: float, total_despesas: float) -> str:
     if orcamento < total_despesas:
-        return("Voçê !!!UlTRAPASSOU SEU LIMITE!!!", total_despesas)
+        return("Você !!!UlTRAPASSOU SEU LIMITE!!!", total_despesas)
     else:
-        return("Voçê !!!Está DENTRO DO ORÇAMENTO!!!", total_despesas)   
+        return("Você !!!Está DENTRO DO ORÇAMENTO!!!", total_despesas)   
         
 # Passo 5: Exibir os resultados
 def __exibir_resultados(orcamento: float, alimentacao: float, transporte: float, lazer: float, saude: float, total_dispesas: float, resultado: str):
