@@ -1,4 +1,3 @@
-
 def exemplo_lanchonete():
     # Solciitar o nome 6 vezes
     indice = 0
