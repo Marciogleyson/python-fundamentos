@@ -88,7 +88,7 @@ def __comparar_orcamento_com_despesas(orcamento: float, total_despesas: float) -
 def __exibir_resultados(orcamento: float, alimentacao: float, transporte: float, lazer: float, saude: float, total_dispesas: float, resultado: str):
     
     print("O valor do Orçamento mensal foi: ", orcamento)   
-    print("O gasto com alientação foi: ", alimentacao)
+    print("O gasto com alimentação foi: ", alimentacao)
     print("O gasto com Transporte foi: ", transporte)
     print("O gaso com lazer foi: ", lazer)
     print("O gasto com saúde foi: ", saude)
