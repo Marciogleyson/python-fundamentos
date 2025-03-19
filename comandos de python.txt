@@ -10,4 +10,4 @@ texto.upper() tranforma letra maiúsculas.
 len(texto) obter a quantidade de caracteres.
 
 
-fim...
+fim...!!
